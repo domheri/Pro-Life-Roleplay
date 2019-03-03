@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "&";
 
 
 
@@ -151,11 +151,11 @@ client.on("message", async message => {
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
             برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
+            صاحب بوت هو Im  😎
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/WKxczE
+            رابط سيرفر الدعم الفني : https://discord.gg/r287Qfh
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }

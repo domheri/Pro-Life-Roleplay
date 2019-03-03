@@ -151,7 +151,7 @@ client.on("message", async message => {
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
             برودكاست عادي : ${prefix}bc
-            صاحب بوت هو Im  😎
+             bot by MOHAMMADYS
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
